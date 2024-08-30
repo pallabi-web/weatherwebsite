@@ -1,0 +1,57 @@
+*{
+    font-family:'Lucida Sans';
+    font-size: 30px;
+    
+}
+body{
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type="text"]{
+    margin-left: 36%;
+    margin-top: 7%;
+    padding: 9px;
+    border-color: black;
+}
+button{
+    cursor: pointer;
+    border-color: white;
+    margin-top: 7%;
+
+}
+.btn{
+    margin-left: -65px ;
+    background: transparent;
+    height: 10px;
+    border: transparent;
+}
+.img1{
+    margin-top: 2px;
+}
+
+.container{
+    display: flex;
+   
+}
+.temp{
+    font-size: 80px;
+    margin-top: -10px;
+}
+
+.weatherinfo {
+    color: black;
+    margin-left: 25%; 
+    font-weight: 900;  
+
+}   
+.weatherinfo p{
+    margin-left: 16px;
+}
+.info{
+    color: black;
+    margin-left: 55%;
+    margin-top: -24%;
+    font-weight: 900; 
+
+}
